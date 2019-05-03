@@ -31,3 +31,44 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.error-message {
+  background: #ea021a;
+  padding: .5rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #282c34;
+}
+
+.container form {
+  padding: .75rem;
+  color: white;
+}
+
+.container form .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 .5rem 0;
+}
+
+.container form .form-group label {
+  margin: 0 0 .5rem 0;
+}
+
+.container .game-container h2 {
+  padding: .75rem;
+  margin: 0;
+  color: white;
+  font-size: 175%;
+}
